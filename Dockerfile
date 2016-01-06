@@ -8,7 +8,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 		file \
 		g++ \
 		gcc \
-		imagemagick \
 		libbz2-dev \
 		libc6-dev \
 		libevent-dev \
@@ -19,7 +18,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 		libpng-dev \
 		libssl-dev \
 		libtool \
-		libwebp-dev \
+		libuv-dev \
 		libxml2-dev \
 		libxslt-dev \
 		libyaml-dev \
